@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roommates Corner</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
+	<style type="text/css">
+/*--------header starts-----*/
+#header{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/friends.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px;
+	font-family: sans-serif;
+	font-size: 58px;
+}
+/*--------header ends-----*/
+
+/*--------form starts-----*/
+#form{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form{
+	padding: 14px;
+}
+.form-control{
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder{
+	color: #999 !important;
+}
+h1{
+	font-size: 25px;
+	text-align: center;
+}
+/*--------form ends-----*/
+	</style>
+</head>
+<body>
+<!----------header section starts-------->
+<section id="header">
+		<div class="container">
+		<p><em>Roommates Connect</em></p>
+	</div>
+</section>
+<!----------header section ends-------->
+
+<!---------- Owner form section starts-------->
+<section id="form">
+	<div class="container">
+	<h1>I have an Apartment but i need a roommate.</h1>
+	<div class="row">
+		<div class="col-md-12">
+		<form class="contact-form">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Your Name">
+			</div>
+			<div class="form-group">
+				<input type="number" class="form-control" placeholder="Phone no.">
+			</div>
+			<div class="form-group">
+				<input type="email" class="form-control" placeholder="Email Id">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Address">
+			</div>
+			<div class="form-group">
+				<label>Type of Accomodation</label>
+				<select class="form-control">
+					<option>Single Room</option>
+					<option>Single Room(self-contain)</option>
+					<option>Room and Parlour</option>
+					<option>Room and Parlour(self-contain)</option>
+					<option>2 Bedroom Flat</option>
+					<option>3 Bedroom Flat</option>
+					<option>4 Bedroom Flat</option>
+					<option>6 Bedroom Flat</option>
+					<option>8 Bedroom Flat</option>
+					<option>Duplex</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Preferred Accommodation Location</label>
+				<select class="form-control">
+					<option>Alimosho</option>
+					<option>Ajeromi-ifelodun</option>
+					<option>Kosofe</option>
+					<option>Mushin</option>
+					<option>Oshodi-Isolo</option>
+					<option>Ojo</option>
+					<option>ikorodu</option>
+					<option>Surulere</option>
+					<option>Agege</option>
+					<option>Ifako-ijaiye</option>
+					<option>Somolu</option>
+					<option>Amuwo-odofin</option>
+					<option>Lagos Mainland</option>
+					<option>Ikeja</option>
+					<option>Eti-Osa</option>
+					<option>Badagry</option>
+					<option>Apapa</option>
+					<option>Lagos Island</option>
+					<option>Epe</option>
+					<option>Ibeju-lekki</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Annual Rent range</label>
+				<select class="form-control">
+					<option>#10,000 - #50,000</option>
+					<option>#50,000 - #100,000</option>
+					<option>#100,000 - #150,000</option>
+					<option>#150,000 - #200,000</option>
+					<option>#200,000 - #250,000</option>
+					<option>#250,000 - #300,000</option>
+					<option>Above #300,000</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Total Number of Roommates currently staying in the Accomodation</label>
+				<select class="form-control">
+					<option>Just 1</option>
+					<option>2-4</option>
+					<option>4-6</option>
+					<option>6-8</option>
+					<option>Above 8</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Occupation of roommate needed</label>
+				<select class="form-control">
+					<option>Student</option>
+					<option>Civil Servant</option>
+					<option>Unemployed</option>
+					<option>Business owner/Artisan</option>
+					<option>Doesn't matter</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Number of Roommates needed</label>
+				<select class="form-control">
+					<option>1</option>
+					<option>2-4</option>
+					<option>4-6</option>
+					<option>6-8</option>
+					<option>Above 8</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">SUBMIT</button>
+		</form>
+		</div>
+	</div>
+</div>
+</section>
+<!----------Owner section ends-------->
+
+<!---------- Buyer form section starts-------->
+<section id="form">
+	<div class="container">
+	<h1>I need an apartment with a roommate.</h1>
+	<div class="row">
+		<div class="col-md-12">
+		<form class="contact-form">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Your Name">
+			</div>
+			<div class="form-group">
+				<input type="number" class="form-control" placeholder="Phone no.">
+			</div>
+			<div class="form-group">
+				<input type="email" class="form-control" placeholder="Email Id">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Address">
+			</div>
+			<div class="form-group">
+				<label>Type of Accomodation Needed</label>
+				<select class="form-control">
+					<option>Single Room</option>
+					<option>Single Room(self-contain)</option>
+					<option>Room and Parlour</option>
+					<option>Room and Parlour(self-contain)</option>
+					<option>2 Bedroom Flat</option>
+					<option>3 Bedroom Flat</option>
+					<option>4 Bedroom Flat</option>
+					<option>6 Bedroom Flat</option>
+					<option>8 Bedroom Flat</option>
+					<option>Duplex</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Preferred Accommodation Location</label>
+				<select class="form-control">
+					<option>Alimosho</option>
+					<option>Ajeromi-ifelodun</option>
+					<option>Kosofe</option>
+					<option>Mushin</option>
+					<option>Oshodi-Isolo</option>
+					<option>Ojo</option>
+					<option>ikorodu</option>
+					<option>Surulere</option>
+					<option>Agege</option>
+					<option>Ifako-ijaiye</option>
+					<option>Somolu</option>
+					<option>Amuwo-odofin</option>
+					<option>Lagos Mainland</option>
+					<option>Ikeja</option>
+					<option>Eti-Osa</option>
+					<option>Badagry</option>
+					<option>Apapa</option>
+					<option>Lagos Island</option>
+					<option>Epe</option>
+					<option>Ibeju-lekki</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Annual Rent range</label>
+				<select class="form-control">
+					<option>#10,000 - #50,000</option>
+					<option>#50,000 - #100,000</option>
+					<option>#100,000 - #150,000</option>
+					<option>#150,000 - #200,000</option>
+					<option>#200,000 - #250,000</option>
+					<option>#250,000 - #300,000</option>
+					<option>Above #300,000</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Preferred Total Number of Roommates currently staying in the Accomodation</label>
+				<select class="form-control">
+					<option>Just 1</option>
+					<option>2-4</option>
+					<option>4-6</option>
+					<option>6-8</option>
+					<option>Above 8</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Preferred Occupation of Roommate</label>
+				<select class="form-control">
+					<option>Student</option>
+					<option>Civil Servant</option>
+					<option>Unemployed</option>
+					<option>Business owner/Artisan</option>
+					<option>Doesn't matter</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">SUBMIT</button>
+		</form>
+		</div>
+	</div>
+</div>
+</section>
+<!----------Buyer section ends-------->
+</body>
+</html>
